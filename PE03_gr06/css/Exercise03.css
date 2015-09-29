@@ -50,6 +50,7 @@ ul,li,a{
 }
 #top>img{
 	float: left;
+	min-height: 400px;
 }
 #middle{
 	height: 50px;
@@ -71,7 +72,7 @@ ul,li,a{
 	-webkit-margin-before: 1em;
 	-webkit-margin-after: 1em;
 }
-#middle>div>input{
+#input_state{
 	float: left;
 	vertical-align: middle;
 	border: none;
@@ -79,7 +80,7 @@ ul,li,a{
 	padding: 5.5px 0px;
 	color: #14212B;
 }
-#middle>div>button{
+#input_button{
 	float: left;
 	margin-right: 5%;
 	font-weight: bold;
@@ -89,7 +90,7 @@ ul,li,a{
 	font: 14px helvetica;
 	padding: 6px 5px 5px;
 }
-#middle>div>button:hover{
+#input_button:hover{
 	background-color: #2675B5;
 }
 #subscription{
@@ -153,7 +154,32 @@ ul,li,a{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 768px){
+	/*For tablet*/
+	.col-t-1 {width: 8.33%;}
+	.col-t-2 {width: 16.66%;}
+	.col-t-3 {width: 25%;}
+	.col-t-4 {width: 33.33%;}
+	.col-t-5 {width: 41.66%;}
+	.col-t-6 {width: 50%;}
+	.col-t-7 {width: 58.33%;}
+	.col-t-8 {width: 66.66%;}
+	.col-t-9 {width: 75%;}
+	.col-t-10 {width: 83.33%;}
+	.col-t-11 {width: 91.66%;}
+	.col-t-12 {width: 100%;}
+	#menu>ul>li>p{
+		text-align: center;
+	}
+	#menu>ul>li>p>a{
+		margin-left: 0;
+	}
+	.content{
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 600px){
 	/*For Mobile*/
 	.col-m-1 {width: 8.33%;}
 	.col-m-2 {width: 16.66%;}
@@ -167,7 +193,25 @@ ul,li,a{
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
+
+	.content{
+		padding: 0;
+	}
+	#menu>ul>li>p{
+		text-align: center;
+	}
 	#menu>ul>li>p>a{
-		margin-left: 35px;
+		margin-left: 0;
+	}
+	#middle>p{
+		margin-left:0;
+		text-align: center;
+	}
+	#input_state{
+		margin-left: 16%;
+	}
+	#input_button{
+		margin-left: 37%;
+   		margin-top: 20px;
 	}
 }
