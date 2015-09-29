@@ -31,7 +31,7 @@ a:hover{
     float: right;
 }
 #head_title{
-	width: 20%;
+	width: 25%;
 	padding-left: 20%;
 	float: left;
 	margin: 0 auto;
@@ -42,14 +42,14 @@ a:hover{
 	float: left;
 	padding: 25px;
 }
-#head_title > h1{
+#head_title > h1> a{
 	float: left;
 	line-height: 50px;
 	display: block;
+	color: #D9CB9E;
 }
 #menu{
 	width: 35%;	
-	padding-left: 5%;
 	float: left;
 }
 #menu>ul{
