@@ -48,14 +48,14 @@ a:hover{
 	display: block;
 }
 #menu{
-	width: 30%;	
-	padding-left: 10%;
+	width: 35%;	
+	padding-left: 5%;
 	float: left;
 }
 #menu>ul{
 	margin-left: 20px;
 	float: right;
-	margin-right: 5em;
+	margin-right: 4em;
 }
 #menu>ul>li{
 	float: left;
