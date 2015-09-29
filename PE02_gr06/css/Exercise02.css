@@ -22,7 +22,7 @@ a:hover{
 	width: 100%;
 	height: 100px;
 	float: left;
-	background-color: #1E1E20;
+	background-color: #14212B;
 	color: #D9CB9E;
 }
 #header_container{
@@ -135,7 +135,7 @@ a:hover{
     padding-left: 20%;
     padding-bottom: 3%;
     padding-top: 3%;
-    background-color: #1E1E20;
+    background-color: #293845;
 }
 #subscription>*{
 	width: 35%;
